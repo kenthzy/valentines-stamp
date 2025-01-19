@@ -1,5 +1,5 @@
 document.querySelector('.stamp').addEventListener('click', () => {
-  alert("Spread the love this Valentine's Day! 💖");
+  alert("Happy Valentine's Day! Adi ❤️");
 });
 //snow script
 innerStamp = document.getElementById("inner-stamp");
