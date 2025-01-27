@@ -5,8 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  overflow: hidden;
-  background: linear-gradient(-45deg,rgb(246, 47, 83),rgb(15, 9, 9));
+  background: rgb(246, 47, 83);
   font-family: 'Arial', sans-serif;
 }
 .snow {
