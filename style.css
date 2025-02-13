@@ -7,6 +7,7 @@ body {
   margin: 0;
   background:rgb(16, 32, 58);
   font-family: 'Arial', sans-serif;
+  overflow: hidden;
 }
 .snow {
   position: absolute;
