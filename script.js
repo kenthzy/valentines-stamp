@@ -1,6 +1,7 @@
 document.querySelector('.stamp').addEventListener('click', () => {
-  alert("Happy Valentine's Day! Adi ❤️");
+  window.location.href = 'chocolate.html';
 });
+
 //snow script
 innerStamp = document.getElementById("inner-stamp");
 
