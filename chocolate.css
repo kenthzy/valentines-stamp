@@ -1,0 +1,59 @@
+body{
+ font-size: 4em; 
+ background:#442500;
+}
+.wrap-my-candy{
+    width: 15em;
+    margin: 0 auto;
+    padding-top: 10%;
+  }
+  .chocolate:nth-child(1){
+     border-top-left-radius: .1em;
+  }
+  .chocolate:nth-child(6){
+     border-top-right-radius: .1em;
+  }
+  .chocolate:nth-child(13){
+     border-bottom-left-radius: .1em;
+  }
+  .chocolate:nth-last-child(1){
+     border-bottom-right-radius: .1em;
+  }
+  
+  .chocolate{
+    position: relative;
+    float:left;
+    width: 2.5em;
+    height: 2.5em;
+    background: #764720;
+    background-image: linear-gradient(120deg, rgba(217,180,152,.5) 5%, transparent);
+  
+  }
+  ::before,
+  ::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .chocolate::before{
+    width: 1.5em;
+    height: 1.5em;
+    background: transparent;
+    border: outset .25em #6B3A00;
+    border-radius: .1em;
+  }
+  .chocolate::after{
+  
+    content:'adi♡';
+    font-size: .5em;
+    font-weight: bold;
+    width: 2em;
+    height: 2em;
+    color: #6B3A00;
+    text-shadow: 
+      1px 1px 0 #885934;
+  }
