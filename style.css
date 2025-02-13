@@ -6,11 +6,11 @@ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  background-color: rgb(226, 73, 81);
+  background-color:rgb(226, 73, 81);
 }
 .snow {
   position: absolute;
-  background: rgb(246, 187, 207);
+  background:#f6bbcf;
   border-radius: 50%;
   opacity: 0.7;
   height: 2px;
@@ -38,17 +38,16 @@ body {
   border-radius: calc(0.5 * var(--r));
 }
 
+
 .inner-stamp {
   cursor: pointer;
   width: 95%;
   height: 95%;
-  background: linear-gradient(to bottom, rgb(255, 77, 109), rgb(245, 142, 161));
+  background: linear-gradient(to bottom, #ff4d6d,rgb(245, 142, 161));
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
   padding-top: 5px;
-  flex-direction: row;
-}
   flex-direction: row;
 }
 
