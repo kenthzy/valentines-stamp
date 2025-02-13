@@ -22,7 +22,7 @@ body {
   height: 180px;
   aspect-ratio: 1.4;
   padding: calc(1.5 * var(--r));
-  background: rgb(246, 187, 207);
+  background: #f6bbcf;
   mask: 
     radial-gradient(var(--r), #0000 97%, #000) round 
     calc(-1.5 * var(--r)) calc(-1.5 * var(--r)) / calc(3 * var(--r)) calc(3 * var(--r)), 
