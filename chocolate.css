@@ -1,11 +1,11 @@
 body{
- font-size: 1em; 
+ font-size: 2em; 
  background:#442500;
 }
 .wrap-my-candy{
     width: 15em;
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 20%;
   }
   .chocolate:nth-child(1){
      border-top-left-radius: .1em;
