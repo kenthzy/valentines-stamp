@@ -3,7 +3,7 @@ document.querySelector('.stamp').addEventListener('click', () => {
 });
 
 document.querySelector('.candy').addEventListener('click', () => {
-  window.location.href = 'index.html';
+  window.location.href = '/';
 });
 
 //snow script
