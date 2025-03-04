@@ -2,7 +2,7 @@ document.querySelector('.stamp').addEventListener('click', () => {
   window.location.href = 'chocolate.html';
 });
 
-document.querySelector('.candy').addEventListener('click', () => {
+document.querySelector('.wrap-my-candy').addEventListener('click', () => {
   window.location.href = '/';
 });
 
