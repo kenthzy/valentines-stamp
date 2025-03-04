@@ -6,7 +6,6 @@ body{
     width: 15em;
     margin: 0 auto;
     padding-top: 20%;
-    cursor: pointer;
   }
   .chocolate:nth-child(1){
      border-top-left-radius: .1em;
@@ -28,7 +27,7 @@ body{
     height: 2.5em;
     background: #764720;
     background-image: linear-gradient(120deg, rgba(217,180,152,.5) 5%, transparent);
-  
+    cursor: pointer;
   }
   ::before,
   ::after{
