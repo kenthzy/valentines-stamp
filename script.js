@@ -2,6 +2,10 @@ document.querySelector('.stamp').addEventListener('click', () => {
   window.location.href = 'chocolate.html';
 });
 
+document.querySelector('.wrap-my-candy').addEventListener('click', () => {
+  window.location.href = 'index.html';
+});
+
 //snow script
 innerStamp = document.getElementById("inner-stamp");
 
